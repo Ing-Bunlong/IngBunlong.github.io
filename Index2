@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<br lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Form Control HTML</title>
+    <!-- link style css file -->
+     <link rel="stylesheet" href="../CSS/Form.css"
+</head>
+<br>
+    
+        <h1>STUDENT INFORMATION FORM</h1>
+        <!-- creat control username -->
+        <label>Enter Username:</label>
+        <input type="text" placeholder="please input your name" required><br><br>
+        <!-- creat control password -->
+        <label>Enter Password</label>
+        <input type="password" placeholder="please input your password" required> <br><br>
+        <label>Enter Email:</label>
+        <input type="email" placeholder="please input your Email" required><br><br>
+        <label>Enter Age:</label>
+        <input type="number" placeholder="please input your age" required><br><br>
+
+        <!-- radio button -->
+        <label>Gender:</label>
+        <label><input type="radio" name="Gender" value="male" checked>Male</label>
+        <label><input type="radio" name="Gender" value="female" checked>Female</label><br></br>
+        <!-- checkbox button-->
+        <label>Subject:</label>
+        <label><input type="checkbox" name="Subject" value="C#" checked>C#</label>
+        <label><input type="checkbox" name="Subject" value="HTML"checked>HTML</label>
+        <label><input type="checkbox" name="Subject" value="CSS" checked>CSS</label>
+        <label><input type="checkbox" name="Subject" value="PHP" checked>PHP</label>
+        <label><input type="checkbox" name="Subject" value="GD" checked>GD</label>
+        <label><input type="checkbox" name="Subject" value="END" checked>END</label>
+        <label><input type="checkbox" name="Subject" value="AC" checked>AC</label><br></br>
+
+        <!-- Combo Box Select-->
+             <label>Choose a School:</label>
+             <select>
+              <option value="SETEC">SETEC</option>
+              <option value="RUPP">RUPP</option>
+              <option value="NUM">NUM</option>
+              <option value="NIE">NIE</option>
+             </select><br><br>
+
+        <!-- Type description-->
+             <label>Description</label><br>
+             <textarea rows="4" cols="30" placeholder="Write your comment here..."></textarea><br><br>
+
+        <br><br><input type="submit" value="Log In">
+        <input type="reset" value="Clear">
+
+
+    </form>
+    
+</body>
+</html>
